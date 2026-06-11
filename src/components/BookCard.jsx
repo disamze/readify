@@ -1,7 +1,7 @@
 import React from "react";
 import { Heart } from "lucide-react";
-import BookCover from "./BookCover";
-import { isFavorite, toggleFavorite, getProgress } from "../lib/storage";
+import BookCover from "./BookCover.jsx";
+import { isFavorite, toggleFavorite, getProgress } from "../lib/storage.js";
 
 const BookCard = ({ book, onOpen, onFavoriteChange }) => {
     const [fav, setFav] = React.useState(isFavorite(book.id));

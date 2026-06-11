@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Send, ShieldCheck, BookMarked } from "lucide-react";
-import { TELEGRAM_GROUP } from "../lib/constants";
+import { TELEGRAM_GROUP } from "../lib/constants.js";
 
 const Header = () => {
     const { pathname } = useLocation();

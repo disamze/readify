@@ -1,13 +1,13 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Search, Send, Library, Bookmark, Clock, Sparkles } from "lucide-react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import BookCard from "../components/BookCard";
-import BookModal from "../components/BookModal";
-import { Input } from "../components/ui/input";
-import { fetchBooks } from "../lib/api";
-import { SUBJECTS, EXAM_TYPES, TELEGRAM_GROUP } from "../lib/constants";
-import { getFavorites, getLastRead } from "../lib/storage";
+import Header from "../components/Header.jsx";
+import Footer from "../components/Footer.jsx";
+import BookCard from "../components/BookCard.jsx";
+import BookModal from "../components/BookModal.jsx";
+import { Input } from "../components/ui/input.jsx";
+import { fetchBooks } from "../lib/api.js";
+import { SUBJECTS, EXAM_TYPES, TELEGRAM_GROUP } from "../lib/constants.js";
+import { getFavorites, getLastRead } from "../lib/storage.js";
 
 const FilterPill = ({ active, onClick, children, testId }) => (
     <button

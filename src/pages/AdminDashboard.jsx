@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
 import { Plus, Pencil, Trash2, LogOut, BookMarked, Loader2, ExternalLink } from "lucide-react";
-import Header from "../components/Header";
-import { Input } from "../components/ui/input";
-import { Textarea } from "../components/ui/textarea";
-import { Button } from "../components/ui/button";
+import Header from "../components/Header.jsx";
+import { Input } from "../components/ui/input.jsx";
+import { Textarea } from "../components/ui/textarea.jsx";
+import { Button } from "../components/ui/button.jsx";
 import {
     Dialog,
     DialogContent,
@@ -12,17 +12,17 @@ import {
     DialogTitle,
     DialogDescription,
     DialogFooter,
-} from "../components/ui/dialog";
+} from "../components/ui/dialog.jsx";
 import {
     Select,
     SelectContent,
     SelectItem,
     SelectTrigger,
     SelectValue,
-} from "../components/ui/select";
-import { useAdminAuth } from "../context/AdminAuth";
-import { fetchBooks, createBook, updateBook, deleteBook } from "../lib/api";
-import { SUBJECTS, EXAM_TYPES } from "../lib/constants";
+} from "../components/ui/select.jsx";
+import { useAdminAuth } from "../context/AdminAuth.jsx";
+import { fetchBooks, createBook, updateBook, deleteBook } from "../lib/api.js";
+import { SUBJECTS, EXAM_TYPES } from "../lib/constants.js";
 import { toast } from "sonner";
 
 const emptyForm = {

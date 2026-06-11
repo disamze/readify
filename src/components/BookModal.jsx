@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { Dialog, DialogContent, DialogTitle, DialogDescription } from "../components/ui/dialog";
-import { Slider } from "../components/ui/slider";
-import { Button } from "../components/ui/button";
+import { Dialog, DialogContent, DialogTitle, DialogDescription } from "../components/ui/dialog.jsx";
+import { Slider } from "../components/ui/slider.jsx";
+import { Button } from "../components/ui/Button.jsx";
 import { Heart, ExternalLink, BookOpen } from "lucide-react";
-import BookCover from "./BookCover";
+import BookCover from "./BookCover.jsx";
 import {
     isFavorite,
     toggleFavorite,
     getProgress,
     setProgress,
     markLastRead,
-} from "../lib/storage";
+} from "../lib/storage.js";
 
 const BookModal = ({ book, open, onClose, onChange }) => {
     const [fav, setFav] = useState(false);

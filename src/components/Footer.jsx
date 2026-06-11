@@ -1,6 +1,6 @@
 import React from "react";
 import { Send, Heart } from "lucide-react";
-import { TELEGRAM_GROUP } from "../lib/constants";
+import { TELEGRAM_GROUP } from "../lib/constants.js";
 
 const Footer = () => (
     <footer className="border-t border-stone-900 mt-24">

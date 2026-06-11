@@ -2,10 +2,10 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "sonner";
-import { AdminAuthProvider } from "./context/AdminAuth";
-import HomePage from "./pages/HomePage";
-import AdminLoginPage from "./pages/AdminLoginPage";
-import AdminDashboard from "./pages/AdminDashboard";
+import { AdminAuthProvider } from "./context/AdminAuth.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import AdminLoginPage from "./pages/AdminLoginPage.jsx";
+import AdminDashboard from "./pages/AdminDashboard.jsx";
 
 function App() {
     return (

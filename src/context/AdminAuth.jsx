@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { getAdminToken, setAdminToken, clearAdminToken, verifyAdmin, adminLogin } from "../lib/api";
+import { getAdminToken, setAdminToken, clearAdminToken, verifyAdmin, adminLogin } from "../lib/api.js";
 
 const AdminAuthContext = createContext(null);
 

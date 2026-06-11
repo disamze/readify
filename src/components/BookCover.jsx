@@ -1,5 +1,5 @@
 import React from "react";
-import { paletteFor } from "../lib/constants";
+import { paletteFor } from "../lib/constants.js";
 
 // Generative typographic book cover — no images required
 const BookCover = ({ title, author, subject, size = "md" }) => {

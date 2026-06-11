@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate, Navigate } from "react-router-dom";
 import { ShieldCheck, BookMarked, Loader2 } from "lucide-react";
-import { Input } from "../components/ui/input";
-import { Button } from "../components/ui/button";
-import { useAdminAuth } from "../context/AdminAuth";
+import { Input } from "../components/ui/input.jsx";
+import { Button } from "../components/ui/button.jsx";
+import { useAdminAuth } from "../context/AdminAuth.jsx";
 import { toast } from "sonner";
 
 const AdminLoginPage = () => {
