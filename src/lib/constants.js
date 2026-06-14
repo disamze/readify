@@ -6,13 +6,22 @@ export const SUBJECTS = [
     "English",
     "Reasoning",
     "GK",
+    "IOQM",
+    "Commerce",
     "Current Affairs",
     "Science",
     "History",
+    "Civics",
+    "Economics",
     "Geography",
     "Computer",
     "Hindi",
-    "Other",
+    "SST",
+    "Sankrit",
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "PYQ",
 ];
 
 export const EXAM_TYPES = [
@@ -28,6 +37,7 @@ export const EXAM_TYPES = [
     "Class 12th",
     "Class 10th",
     "Class 9th",
+    "Olympiad",
     "Other",
 ];
 
